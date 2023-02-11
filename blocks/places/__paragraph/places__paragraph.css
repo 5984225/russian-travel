@@ -1,12 +1,23 @@
 .places__paragraph {
+<<<<<<< HEAD
+=======
+
+>>>>>>> ad887a498e115399da8de961036555b1057c582f
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
+<<<<<<< HEAD
     line-height: 26px;
     color: #ffffff;
     margin: 0;
     padding: 0 16px;
+=======
+    line-height: 163%;
+    color: #ffffff;
+    margin: 0 1rem 0 1rem;
+    padding: 0;
+>>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 .places__paragraph:first-child {
@@ -14,14 +25,26 @@
 }
 
 @media screen and (min-width: 768px) {
+<<<<<<< HEAD
     .places__paragraph {
         padding: 0 0 0 28px;
     }
+=======
+
+    .places__paragraph {
+        margin: 0;
+        padding-right: 1.5rem;
+
+
+    }
+
+>>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 1024px) {
 
     .places__paragraph {
+<<<<<<< HEAD
         padding: 0 0 0 40px;
         font-size: 18px;
     }
@@ -32,4 +55,30 @@
     .places__paragraph:first-child {
         padding-bottom: 26px;
     }
+=======
+        padding: 0;
+        margin: 0 3rem auto 0;
+        font-size: 18px;
+
+
+    }
+
+}
+
+
+@media screen and (min-width: 1280px) {
+
+    .places__paragraph {
+        padding-right: 9.25rem;
+        margin: 0;
+
+
+
+    }
+
+    .places__paragraph:first-child {
+        padding-bottom: 26px;
+    }
+
+>>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
