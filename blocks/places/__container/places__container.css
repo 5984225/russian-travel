@@ -1,31 +1,31 @@
 .places__container {
     margin: 0;
-    padding: 0;
+    padding: 0 0 0 16px;
 }
 
 @media screen and (min-width: 768px) {
     .places__container {
-     display: flex;
-     align-items: flex-end;
-     flex-direction: row;
-     justify-content: space-between;
-
+     display: grid;
+     grid-template-columns: repeat(2, 346px);
+     gap: 28px;
+     padding: 0 0 48px 0;
+     align-items: end;
+     
     }
-
 }
 
 @media screen and (min-width: 1024px) {
     .places__container {
-    padding: 5rem 3rem 0 3rem;
-
+     grid-template-columns: repeat(2, 448px);
+     gap: 32px;
     }
-
 }
 
 @media screen and (min-width: 1280px) {
     .places__container {
-    padding: 5rem 9.25rem 0 9.25rem;
-
+     grid-template-columns: repeat(2, 472px);
+     gap: 40px;
     }
-
 }
+
+

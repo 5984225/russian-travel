@@ -1,0 +1,42 @@
+.page__container4 {
+    padding: 0 16px 64px 16px;
+    margin: 0 auto;
+    max-width: 320px;
+}
+
+
+@media screen and (min-width: 425px) {
+    .page__container4 {
+        padding: 0 18px 68px 18px;
+        max-width: 425px;
+    }
+}
+
+@media screen and (min-width: 598px) {
+    .page__container4 {
+        padding: 0 22px 84px 22px;
+        max-width: 598px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page__container4 {
+        padding: 0 24px 88px 24px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__container4 {
+        padding: 0 48px 92px 48px;
+        max-width: 1024px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .page__container4 {
+        max-width: 1280px;
+    }
+}
+

@@ -1,0 +1,35 @@
+.page__container2 {
+    margin: 0 auto;
+    padding: 48px 0 64px 0;
+    max-width: 320px;
+}
+
+@media screen and (min-width: 598px) {
+    .page__container2 {
+        padding: 48px 0 88px 0;
+        max-width: 598px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .page__container2 {
+        padding: 48px 0 88px 0;
+        max-width: 768px;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .page__container2 {
+        padding: 48px 48px 92px 48px;
+        max-width: 1024px;
+    }
+}
+
+
+@media screen and (min-width: 1280px) {
+    .page__container2 {
+        padding: 64px 148px 84px 148px;
+        max-width: 1280px;
+    }
+}

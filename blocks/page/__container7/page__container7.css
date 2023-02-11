@@ -1,0 +1,33 @@
+.page__container7 {
+    margin: 0 auto;
+    max-width: 320px;
+    padding: 0 0 24px 16px;
+}
+
+@media screen and (min-width: 598px) {
+    .page__container7 {
+        padding: 0 0 24px 20px;
+        max-width: 598px;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .page__container7 {
+        padding: 0 24px 24px 24px;
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page__container7 {
+        padding: 0 48px 24px 48px;
+        max-width: 1024px;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .page__container7 {
+        max-width: 1280px;
+    }
+}

@@ -7,16 +7,14 @@ font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
-padding: 0 1rem 0 1rem;
-margin-left: 1rem;
+padding: 0 16px 0 16px;
+margin-left: 16px;
 
 }
 
 @media screen and (min-width: 768px) {
     .places__link  {
-    padding: 0 1.5rem 0 0;
-    width: 352px;
-
+    padding: 0;
     }
 
 }

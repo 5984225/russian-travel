@@ -9,7 +9,6 @@
 
 .header__lang-link:nth-child(2) {
     text-decoration-line: none;
-    margin-left: 18px;
 }
 
 @media screen and (min-width: 768px) {
