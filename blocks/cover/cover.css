@@ -24,18 +24,11 @@
     background: rgba(0, 0, 0, 0.3);
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 598px) {
     .cover {
-        min-height: 280px;
+        min-height: 380px;
     }
 }
-
-@media screen and (min-width: 652px) {
-      .cover {
-        min-height: 420px;
-      }
-}
-
 
 @media screen and (min-width: 768px) {
     .cover {

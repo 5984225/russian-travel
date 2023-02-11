@@ -12,6 +12,14 @@
     color: #FFFFFF;
 }
 
+@media screen and (min-width: 598px) {
+    .cover__title {
+        font-size: 58px;
+        line-height: 62px;
+        padding: 100px 90px 0 90px;
+    }
+}
+
 @media screen and (min-width: 768px) {
     .cover__title {
         font-size: 72px;
