@@ -5,11 +5,7 @@
     font-size: 32px;
     line-height: 35px;
     color: #FFFFFF;
-<<<<<<< HEAD
     padding: 0 0 40px 0;
-=======
-    padding: 4rem 1rem 40px 1rem;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
     margin: 0;
 }
 
@@ -17,25 +13,6 @@
     .intro__title {
         font-size: 54px;
         line-height: 58px;
-<<<<<<< HEAD
-=======
-        padding: 5.5rem 1.5rem 2.5rem 1.5rem;
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-    .intro__title {
-        padding: 0;
-        margin: 5.75rem auto 2.5rem 3rem;
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .intro__title {
-        margin-left: 9.25rem;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
     }
 
 }

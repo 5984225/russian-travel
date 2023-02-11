@@ -1,52 +1,25 @@
 .places__title {
-<<<<<<< HEAD
     margin: 0;
     padding: 0 0 32px 0;
-=======
-    margin: 50px 1rem 2rem 1rem;
-    padding: 0;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
     font-family: 'Inter';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 35px;
     color: #FFFFFF;
-<<<<<<< HEAD
-
-=======
-    width: 100%;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 768px) {
     .places__title {
         font-size: 42px;
         line-height: 46px;
-<<<<<<< HEAD
         padding: 0;
     }
-=======
-        width: 50%;
-        margin: 73px 1.75rem 0 1.5rem;
-
-    }
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 1024px) {
     .places__title {
         font-size: 72px;
         line-height: 76px;
-<<<<<<< HEAD
     }
-=======
-        width: 50%;
-        margin: 0;
-        
-
-    }
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }

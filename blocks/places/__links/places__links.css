@@ -1,44 +1,12 @@
 .places__links {
-<<<<<<< HEAD
     margin: 0;
     padding: 0 0 32px 0;
-=======
-    margin-left: 1rem;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 768px) {
     .places__links {
      display: flex;
      flex-direction: column;
-<<<<<<< HEAD
      padding: 0;
     }
 }
-=======
-     max-width: 50%;
-     padding-right: 1rem;
-     margin-left: 0;
-
-    }
-
-}
-
-@media screen and (min-width: 1024px) {
-    .places__links {
-     padding-right: 4.75rem;
-     
-
-    }
-
-}
-
-@media screen and (min-width: 1280px) {
-    .places__links {
-     padding-right: 6.5rem;
-     
-
-    }
-
-}
->>>>>>> ad887a498e115399da8de961036555b1057c582f

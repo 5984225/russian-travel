@@ -1,55 +1,25 @@
 .photo-grid__item {
-<<<<<<< HEAD
     max-width: 100%;
-=======
-    width: 288px;
-    height: 216px;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 768px) {
     .photo-grid__item {
-<<<<<<< HEAD
         max-width: 100%;
         object-fit: scale-down;
 
     }
-=======
-        width: 352px;
-        height: 264px;
-
-    }
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 1024px) {
     .photo-grid__item {
-<<<<<<< HEAD
         max-width: 100%;
         min-height: 225px;
     }
-=======
-        width: 300px;
-        height: 225px;
-
-    }
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 1280px) {
     .photo-grid__item {
-<<<<<<< HEAD
         max-width: 100%;
         min-height: 213px;
     }
 }
-=======
-        width: 284px;
-        height: 213px;
-
-    }
-
-}
->>>>>>> ad887a498e115399da8de961036555b1057c582f

@@ -1,6 +1,5 @@
 .places__content {
     margin: 0;
-<<<<<<< HEAD
     padding: 0;
     max-width: 320px;
 }
@@ -13,8 +12,6 @@
 
 @media screen and (min-width: 652px) {
     .places__content {
-        display: flex;
-        flex-direction: row;
         max-width: 608px;
     }
 }
@@ -22,6 +19,8 @@
 
 @media screen and (min-width: 768px) {
     .places__content {
+        display: flex;
+        flex-direction: row;
         max-width: 720px;
     }
 }
@@ -40,17 +39,3 @@
 
 
 
-=======
-}
-
-@media screen and (min-width: 768px) {
-    .places__content {
-        display: flex;
-        flex-direction: row;
-        margin-top: 3rem;
-   
-
-    }
-
-}
->>>>>>> ad887a498e115399da8de961036555b1057c582f

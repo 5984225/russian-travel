@@ -1,5 +1,4 @@
 .places__image {
-<<<<<<< HEAD
     max-width: 320px;
     height: 320px;
     padding: 0 0 32px 0;
@@ -33,47 +32,12 @@
         max-width: 440px;
         height: 440px;
     }
-=======
-    width: 320px;
-    height: 320px;
-    padding: 0;
-    margin: 2rem auto 2rem auto;
-}
-
-@media screen and (min-width: 768px) {
-    .places__image {
-        margin: 0 28px auto 1.5rem;
-   
-
-    }
-
-}
-
-
-@media screen and (min-width: 1024px) {
-    .places__image {
-        margin: 0 2rem auto 3rem;
-        width: 440px;
-        height: 440px;
-   
-
-    }
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 }
 
 @media screen and (min-width: 1280px) {
     .places__image {
-<<<<<<< HEAD
         max-width: 460px;
         height: 460px;
-=======
-        margin: 0 2.5rem auto 9.25rem;
-        width: 460px;
-        height: 460px;
-   
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
     }
 
 }

@@ -7,25 +7,13 @@ font-size: 18px;
 line-height: 22px;
 text-decoration-line: underline;
 color: #FFFFFF;
-<<<<<<< HEAD
 padding: 0 16px 0 16px;
 margin-left: 16px;
-=======
-padding: 0 1rem 0 1rem;
-margin-left: 1rem;
->>>>>>> ad887a498e115399da8de961036555b1057c582f
 
 }
 
 @media screen and (min-width: 768px) {
     .places__link  {
-<<<<<<< HEAD
     padding: 0;
-=======
-    padding: 0 1.5rem 0 0;
-    width: 352px;
-
->>>>>>> ad887a498e115399da8de961036555b1057c582f
     }
-
 }
