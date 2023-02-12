@@ -1,11 +1,11 @@
-.page__container {
+.page__container-header {
     margin: 0 auto;
     padding: 16px 16px 0 16px;
     max-width: 320px;
 }
 
 @media screen and (min-width: 598px) {
-    .page__container {
+    .page__container-header {
         padding: 28px 24px 0 24px;
         max-width: 598px;
     }
@@ -13,21 +13,21 @@
 
 
 @media screen and (min-width: 768px) {
-    .page__container {
+    .page__container-header {
         padding: 28px 24px 0 24px;
         max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .page__container {
+    .page__container-header {
         padding: 28px 48px 0 48px;
         max-width: 1024px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .page__container {
+    .page__container-header {
         max-width: 1280px;
     }
 }

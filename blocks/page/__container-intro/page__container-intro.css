@@ -1,46 +1,46 @@
-.page__container3 {
+.page__container-intro {
     margin: 0 auto;
     padding: 0 16px 64px 16px;
     max-width: 320px;
 }
 
 @media screen and (min-width: 425px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 20px 80px 20px;
         max-width: 425px;
     }
 }
 
 @media screen and (min-width: 598px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 22px 84px 22px;
         max-width: 598px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 24px 88px 24px;
         max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 0 92px 48px;
         max-width: 1024px;
     }
 }
 
 @media screen and (min-width: 1124px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 0 92px 80px;
         max-width: 1124px;
     }
 }
 
 @media screen and (min-width: 1280px) {
-    .page__container3 {
+    .page__container-intro {
         padding: 0 0 92px 148px;
         max-width: 1280px;
     }

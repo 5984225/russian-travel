@@ -1,4 +1,4 @@
-.page__container5 {
+.page__container-places {
     padding: 0;
     margin: 0 auto;
     max-width: 320px;
@@ -6,28 +6,28 @@
 
 
 @media screen and (min-width: 425px) {
-    .page__container5 {
+    .page__container-places {
         padding: 0 18px;
         max-width: 425px;
     }
 }
 
 @media screen and (min-width: 652px) {
-    .page__container5 {
+    .page__container-places {
         padding: 0 22px;
         max-width: 652px;
     }
 }
 
 @media screen and (min-width: 768px) {
-    .page__container5 {
+    .page__container-places {
         padding: 0 24px;
         max-width: 768px;
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .page__container5 {
+    .page__container-places {
         padding: 0 48px;
         max-width: 1024px;
     }
@@ -35,7 +35,7 @@
 
 
 @media screen and (min-width: 1280px) {
-    .page__container5 {
+    .page__container-places {
         padding: 0 148px;
         max-width: 1280px;
     }
