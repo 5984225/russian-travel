@@ -3,8 +3,8 @@
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
-@import url(../blocks/header/__logo-pic/header__logo-pic.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__lang-link/_active/header__lang-link_active.css);
 @import url(../blocks/lead/__caption/lead__caption.css);
 @import url(../blocks/lead/__image/lead__image.css);
 @import url(../blocks/lead/__subtitle/lead__subtitle.css);
@@ -39,11 +39,8 @@
 @import url(../blocks/footer/__link/footer__link.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
 @import url(../blocks/footer/__links/footer__links.css);
-@import url(../blocks/footer/__container/footer__container.css);
 @import url(../blocks/link/link.css);
 @import url(../blocks/lead/lead.css);
-@import url(../blocks/ol.css);
-@import url(../blocks/page__container.css);
 @import url(../blocks/lead/__pic/lead__pic.css);
 @import url(../blocks/intro/intro.css);
 @import url(../blocks/page/__container-header/page__container-header.css);
@@ -55,35 +52,39 @@
 @import url(../blocks/page/__container-footer/page__container-footer.css);
 
 
-    
-
 
 @font-face {
     font-family: "Inter";
-    src: local("Inter-Black"),
-    url(../vendor/fonts/Inter/Inter-Black.svg) format("svg"),
-    url(../vendor/fonts/Inter/Inter-Black.woff) format("woff"),
-    url(../vendor/fonts/Inter/Inter-Black.woff2) format("woff2");
+    font-style: normal;
     font-weight: 900;
+    font-display: swap;
+    src: local("Inter-Black"),
+    url(../fonts/Inter/Inter-Black.woff2) format("woff2"),
+    url(../fonts/Inter/Inter-Black.woff) format("woff"),
+    url(../fonts/Inter/Inter-Black.svg) format("svg");
     color: #FFFFFF;
     }
 
 @font-face {
     font-family: "Inter";
-    src: local("Inter-Bold"),
-    url(../vendor/fonts/Inter/Inter-Bold.svg) format("svg"),
-    url(../vendor/fonts/Inter/Inter-Bold.woff) format("woff"),
-    url(../vendor/fonts/Inter/Inter-Bold.woff2) format("woff2");
+    font-style: normal;
     font-weight: 700;
+    font-display: swap;
+    src: local("Inter-Bold"),
+    url(../fonts/Inter/Inter-Bold.woff2) format("woff2"),
+    url(../fonts/Inter/Inter-Bold.woff) format("woff"),
+    url(../fonts/Inter/Inter-Black.svg) format("svg");
     color: #FFFFFF;
 }
 
 @font-face {
     font-family: "Inter";
-    src: local("Inter-Regular"),
-    url(../vendor/fonts/Inter/Inter-Regular.svg) format("svg"),
-    url(../vendor/fonts/Inter/Inter-Regular.woff) format("woff"),
-    url(../vendor/fonts/Inter/Inter-Regular.woff2) format("woff2");
+    font-style: normal;
     font-weight: 400;
+    font-display: swap;
+    src: local("Inter-Regular"),
+    url(../fonts/Inter/Inter-Regular.woff2) format("woff2"),
+    url(../fonts/Inter/Inter-Regular.woff) format("woff"),
+    url(../fonts/Inter/Inter-Regular.svg) format("svg");
     color: #FFFFFF;
 }
