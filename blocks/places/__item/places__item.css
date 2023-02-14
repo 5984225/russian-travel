@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 768px) {
     .places__item {
-        padding: 0 0 73px 0;
+        padding-bottom: 73px;
     }
 }
 
@@ -23,7 +23,7 @@
 
 @media screen and (min-width: 1024px) {
     .places__item {
-        padding: 0 0 80px 0;
+        padding-bottom: 80px;
     }
 }
 

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./vendor/normalize.css">
     <link rel="stylesheet" href="./pages/index.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
     <title>Путешествия по России</title>
 </head>
 
@@ -14,7 +15,7 @@
         <img class="header__logo" src="./images/header-logo.svg" alt="лого">
         <div class="header__lang-links">
             <a class="link header__lang-link header__lang-link_active" href="#">Ru</a>
-            <a class="link header__lang-link header__lang-link_active" href="#">En</a>
+            <a class="link header__lang-link" href="#">En</a>
         </div>
     </header>
     <main class="content">
@@ -59,7 +60,7 @@
                 <li class="intro__item">Аэропортов <span class="intro__span-accent">241</span></li>
             </ul>
         </section>
-        <section class="photo-grid page__container-photo">
+        <section class="photo-grid page__container-photo" aria-label="галерея">
             <img class="photo-grid__item" src="./images/photo-grid-train.jpg" alt="поезд">
             <img class="photo-grid__item" src="./images/photo-grid-atharva-tulsi.jpg" alt="облака">
             <img class="photo-grid__item" src="./images/photo-grid-tuman.jpg" alt="туман">
@@ -73,7 +74,7 @@
             <img class="photo-grid__item" src="./images/photo-grid-baikal-2.jpg" alt="байкал2">
             <img class="photo-grid__item" src="./images/photo-grid-ergaki.jpg" alt="горы">
         </section>
-        <section class="places page__container-places">
+        <section class="places page__container-places" aria-label="места">
             <article class="places__item">
                 <div class="places__container">
                     <h2 class="places__title">Куршская
