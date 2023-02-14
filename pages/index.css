@@ -1,5 +1,6 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/page/page.css);
+@import url(../vendor/fonts.css);
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__lang-link/header__lang-link.css);
 @import url(../blocks/header/__lang-links/header__lang-links.css);
@@ -50,3 +51,4 @@
 @import url(../blocks/page/__container-places/page__container-places.css);
 @import url(../blocks/page/__container-cover/page__container-cover.css);
 @import url(../blocks/page/__container-footer/page__container-footer.css);
+
